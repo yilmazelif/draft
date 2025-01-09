@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0px;
+                padding: 0px;
+            }
+            header {
+                background-color: #666;
+                font-size: 30px;
+                text-align: center;
+                padding: 30px;
+                color: white;
+            }
+
+            nav {
+                background-color: #666;
+                padding: 0px;
+                margin:0px;
+            }
+            .navigation {
+                list-style-type: none;
+                display:flex;
+                justify-content: center;
+            }
+
+            .navigation li {
+                padding: 5px;
+                margin: 5px;   
+                border: solid black 2px;             
+            }
+            
+            .navigation a {
+                text-decoration: none;
+                color:white;
+                
+            }
+
+            .navigation a:hover {
+                color:yellow;
+            }
+          
+        </style>
+    </head>
+    <body>
+        <header>
+            Searching
+        </header>   
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#">Google Search</a></li>
+                    <li><a href="#">Google Image Search</a></li>
+                    <li><a href="#">Google Advanced Search</a></li>
+                    <li><a href="#">I Feel Lucky</a></li>
+                </ul>
+            </nav>
+            <section>
+            <form>
+                <input name="q" placeholder="Type what you look for">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </body>
+</html>
